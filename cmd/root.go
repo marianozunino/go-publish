@@ -24,7 +24,7 @@ var (
 
 // rootCmd represents the base command when called without any subcommands
 var rootCmd = &cobra.Command{
-	Use:   "rabbitmq-resender",
+	Use:   "go-publish",
 	Short: "Resend messages to a RabbitMQ queue with interactive controls",
 	Long: `A flexible utility for resending messages to a RabbitMQ queue with
 interactive controls for speed and pausing.
